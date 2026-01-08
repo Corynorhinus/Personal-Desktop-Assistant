@@ -311,7 +311,7 @@ export default function TextEditor ({
     <div className="main-content">
       <div className="text-editor-container">
         <div className="editor-header-container">
-          <h2 className="text-editor-header">✏️ Corporate Document Editor</h2>
+          <h2 className="text-editor-header">✏️ Document Editor</h2>
           <div className="editor-status-bar">
             <div className="status-indicator">
               <span className="status-dot online"></span>
@@ -571,4 +571,5 @@ export default function TextEditor ({
       </div>
     </div>
   );
+
 };
