@@ -404,7 +404,7 @@ export default function Calendar() {
       {/* Header */}
       <div className="calendar-header-container">
         <h2 className="calendar-header">
-          📅 Corporate Calendar
+          📅 Calendar
         </h2>
         <div className="status-indicator">
           <span className={`status-dot ${apiOnline ? 'online' : 'offline'}`}></span>
@@ -990,4 +990,5 @@ export default function Calendar() {
       )}
     </div>
   );
+
 }
