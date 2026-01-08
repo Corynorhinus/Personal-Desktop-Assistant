@@ -122,7 +122,7 @@ export default function Contacts () {
     <div className="main-content">
       <div className="contact-container">
         <div className="contact-header-container">
-          <h2 className="contact-header">👥 Corporate Contacts</h2>
+          <h2 className="contact-header">👥 Contacts</h2>
           <div className="status-indicator">
             <span className={`status-dot ${apiOnline ? 'online' : 'offline'}`}></span>
           </div>
@@ -251,4 +251,5 @@ export default function Contacts () {
       </div>
     </div>
   );
+
 }
